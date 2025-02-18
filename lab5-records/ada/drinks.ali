@@ -1,0 +1,73 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U drinks%b		drinks.adb		06f72c72 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-flteio.ads		20170908151217 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20170908151217 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D drinks.adb		20250218105514 992b512c drinks%b
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 2r5 3r6 4r5 5r6 6r5
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 12|3w10 4r9
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 12|1w10 2r9
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|5w10 6r9
+X 12 drinks.adb
+9U11*Drinks 9b11 44l5 44t11
+11E10 DrinkCategoryVariant 12e29 14r34
+12n10 Water{11E10} 17r22 25r43 32r18
+12n17 Milk{11E10} 18r22 26r43 27r43 33r18
+12n23 Juice{11E10} 20r22 28r43 34r18
+14R10 DrinkCategory 14d24 23e19 25r14 26r14 27r14 28r14 30r33
+14e24 variant{11E10} 16r18 25m32 26m32 27m32 28m32 31r20
+19f21 fatContent{float} 26m49 27m49
+21a21 fruit{string} 28m50 35r29 36r29
+25r5 drink1{14R10}
+26r5 drink2{14R10}
+27r5 drink3{14R10}
+28r5 drink4{14R10}
+30V14 DrinkColour{string} 30b14 30>26 40l9 40t20
+30r26 drink{14R10} 31r14 35r23 36r23
+
